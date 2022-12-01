@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="/login.js"></script>
+  <link rel="stylesheet" href="/css/login.css">
+
+  <title>login</title>
+</head>
+
+<body>
+  <main id="container">
+    <form id="login-form">
+      <div id="form-header">
+        <h1>login</h1>
+       
+      </div>
+      <div id="social-media">
+        <a href="">
+          <img src="/img/facebook.png" alt="facebook">
+        </a>
+        <a href="">
+          <img src="/img/google.png" alt="google">
+        </a>
+        <a href="">
+          <img src="/img/github.png" alt="github">
+        </a>
+      </div>
+      <div id="inputs">
+        <div class="input-box">
+          <label for="name">
+            Nome
+            <div class="input-field">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" id="name" name="name">
+            </div>
+          </label>
+          <div class="input-box">
+            <label for="email">
+              E-mail
+              <div class="input-field">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" id="email" name="email">
+              </div>
+            </label>
+          </div>
+          <div class="input-box">
+            <label for="Password">
+              Senha
+              <div class="input-field">
+                <i class="fa-sharp fa-solid fa-key"></i>
+                <input type="password" id="Password" name="Password">
+              </div>
+            </label>
+          </div>
+          <div id="linkexterno">
+            <div id="esqueceu-senha">
+              <a href="#">Esqueceu a senha ?</a>
+            </div><div id="criar-conta">
+              <a href="/cadastro.html">Criar conta </a>
+            </div>
+        </div>
+        </div>
+        <button class="button" type="submit" id="btn-login">
+          login
+        </button>
+    </form>
+  </main>
+</body>
+
+</html>
